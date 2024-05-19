@@ -1,7 +1,7 @@
 {
   "lock":true,
   "tasks": {
-    "start": "deno run --allow-net server.ts"
+    "start": "deno run --allow-net --allow-read server.ts"
   },
   "imports": {
     "Hono": "https://deno.land/x/hono@v4.3.7/mod.ts",
