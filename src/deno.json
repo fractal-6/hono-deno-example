@@ -1,0 +1,10 @@
+{
+  "lock":true,
+  "tasks": {
+    "start": "deno run --allow-net server.ts"
+  },
+  "imports": {
+    "Hono": "https://deno.land/x/hono@v4.3.7/mod.ts",
+    "serveStatic": "https://deno.land/x/hono/middleware.ts"
+  }
+}
